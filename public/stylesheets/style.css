@@ -1,0 +1,41 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+/* Custom container */
+.container-narrow {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin-top: 0px;
+}
+
+footer {
+  margin-top: 120px;
+}
+
+time {
+	font-size: 13px;
+	color: rgb(125,126,127);
+}
+
+h3 time {
+	float: right;
+}
+
+.read {
+	font-size: 13px;
+	color: rgb(105,106,107);
+}
+
+.pagination{
+	
+}

@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block body %}
+	<form action="/postimages" method="post" enctype='multipart/form-data'>
+        <div class="form-group">
+            <label>image1:</label>
+            <input type="file" name="avatar" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-default">postimages</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block title%}
+  {{title}}
+{% endblock %}
+{% block body%}
+  {% for post in posts %}
+    <h3>{{ post.title }}<time>{{ time }}</time></h3>
+    {{ post.content }}
+    <p class="read">reads:{{post.read_count}}</p>
+  {% endfor %}
+  <div class="pagination">
+    <ul>
+    <li><a href="#">Prev</a></li>
+    <li><a href="/tech?p=1">1</a></li>
+    <li><a href="/tech?p=2">2</a></li>
+    <li><a href="/tech?p=3">3</a></li>
+    <li><a href="/tech?p=4">4</a></li>
+    <li><a href="/tech?p=5">5</a></li>
+    <li><a href="#">Next</a></li>
+    </ul>
+  </div>
+{%endblock%}

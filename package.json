@@ -1,0 +1,37 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "description": "This is a demo of passport",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "keywords": [
+    "passport",
+    "auth"
+  ],
+  "author": "fengyiai",
+  "dependencies": {
+    "babel-core": "6.13.2",
+    "babel-polyfill": "6.13.0",
+    "babel-preset-es2015-node6": "0.3.0",
+    "babel-preset-stage-3": "6.5.0",
+    "express": "~4.0.0",
+    "static-favicon": "~1.0.0",
+    "morgan": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "body-parser": "~1.0.0",
+    "debug": "~0.7.4",
+    "nunjucks": "*",
+    "body-parser": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "bcrypt": "*",
+    "connect-flash": "*",
+    "mongoose": "*",
+    "markdown": "*",
+    "multer": "1.2.0",
+    "moment": "*"
+  }
+}
