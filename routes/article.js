@@ -15,7 +15,7 @@ const savearticle = (req, res)=>{
 	let p = new Post({
 		title: title,
 		content: content,
-		create_at: new Date(),
+		create_at: Date.now(),
 		read_count: 13,
 		_uid: 1
 	});

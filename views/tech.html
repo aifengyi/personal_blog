@@ -4,7 +4,7 @@
 {% endblock %}
 {% block body%}
 	{% for post in posts %}
-		<h3>{{ post.title }}<time>{{ time }}</time></h3>
+		<h3>{{ post.title }}<time>{{ post.time }}</time></h3>
     {{ post.content | safe }}
 		<p class="read">reads:{{post.read_count}}</p>
 	{% endfor %}

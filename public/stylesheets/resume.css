@@ -1,0 +1,176 @@
+.global-font {
+	color: #FFF;
+	font-size: 30px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.timeline {
+	display: none;
+}
+
+.language {
+	display: none;
+}
+
+.content {
+	position: relative;
+	width: 100VW;
+	height: 100VH;
+	background-color: rgba(184,51,92,.85);
+	color: #FFF;
+}
+
+.title {
+	font-size: 40px;
+	margin-left: 100px;
+}
+
+.introduction {
+	font-size: 20px;
+	text-align: center;
+	padding-top: 140px;
+}
+
+.avatar {
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.avatar>img {
+	margin-top: -50px
+}
+
+.intro_name {
+	font-size: 40px;
+}
+
+.intro_where {
+	font-size: 25px;
+}
+
+.intro_education {
+	font-size: 25px;
+}
+
+.intro_email {
+	font-size: 25px;
+}
+
+.intro_email>a {
+	color: #FFF;
+}
+
+.intro_email>a:hover {
+	color: #e7ad52;
+	transition: 0.5s;
+}
+
+.skill_left {
+	padding: 60px 20px 0 20px;
+	float: left;
+	width: 600px;
+	text-align: right;
+	font-size: 20px;
+	line-height: 60px;
+}
+
+.skill_right {
+	padding-top: 42px;
+	float: left;
+	width: 400px;
+	text-align: left;
+}
+
+.skillBlock {
+	text-align: left;
+	width: 300px;
+	height: 20px;
+	border: 1px solid rgb(200,200,200);
+	border-radius: 15px;
+	margin-top: 38px; 
+	overflow: hidden;
+}
+
+.skillBlock:hover {
+	border-color: rgb(255,255,0);
+}
+
+.block_HTML {
+	width: 230px;
+	height: 22px;
+	background-color: #77D0F5;
+}
+
+.block_javascript {
+	width: 200px;
+	height: 22px;
+	background-color: #CD919E;
+}
+
+.block_react {
+	width: 180px;
+	height: 22px;
+	background-color: #666798;
+}
+
+.block_express {
+	width: 260px;
+	height: 22px;
+	background-color: #71B75C;
+}
+
+.block_flask {
+	width: 210px;
+	height: 22px;
+	background-color: #00A9FF;
+}
+
+.block_linux {
+	width: 170px;
+	height: 22px;
+	background-color: #828282;
+}
+
+.skill_bottom {
+	clear: left;
+	padding: 20px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.expectation_left {
+	padding-top: 120px;
+	padding-left: 160px;
+	width: 400px;
+	float: left;
+}
+
+.expectation_right {
+	padding-top: 120px;
+	padding-left: 160px;
+	width: 400px;
+	float: left;
+}
+
+.expectation_subtitle {
+	font-size: 25px;
+}
+
+.expectation_content {
+	font-size: 18px;
+}

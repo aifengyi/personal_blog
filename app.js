@@ -20,8 +20,7 @@ var upload = multer({ dest: 'public/images' })
 const config = require('./config');
 
 mongoose.Promise = global.Promise;
-// mongoose.connect(`mongodb://${config.database.host}:${config.database.port}/${config.database.db}`);
-mongoose.connect('mongodb://127.0.0.1:27017/techblog');
+mongoose.connect(`mongodb://${config.database.host}:${config.database.port}/${config.database.db}`);
 
 const app = express();
 

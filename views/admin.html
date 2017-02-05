@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block title%}
+	{{title}}
+{% endblock %}
+{% block body%}
+	{% for post in posts %}
+		<h3>{{ post.title }}<time>{{ post.time }}</time></h3>
+		<p class="read">reads:{{post.read_count}}  <div style="border: 1px solid #000;background-color: #eee; width: 40px; float: left;">编辑</div><div style="border: 1px solid #000; width: 40px; background-color: #eee; float: left;">删除</div></p>
+	{% endfor %}
+{%endblock%}

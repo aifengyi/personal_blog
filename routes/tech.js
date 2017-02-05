@@ -33,12 +33,11 @@ const tech = (req, res)=>{
 		if (err) throw err;
 		for (let i=0; i<posts.length; i++) {
 			posts[i].content = markdown.toHTML(posts[i].content);
+			posts[i].time = moment(posts[i].create_at).format('ll, H:MM');
 		}
-		let time = moment(posts.create_at).format('L, h:mm');
 		res.render("tech.html", {
             	title: 'Tech',
-            	posts: posts,
-            	time: time
+            	posts: posts
             });
 		return;
 		});
