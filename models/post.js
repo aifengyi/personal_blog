@@ -9,6 +9,8 @@ const postSchema = mongoose.Schema({
 	create_at: { type: Date, default: Date.now },
 	update_at: Date,
 	read_count: {type:Number, default: 0},
-	_uid: Number
+	_uid: Number,
+	isdelete: {type:Boolean, default: false},
+	like: {type:Number, default: 0}
 });
 module.exports = mongoose.model('Post', postSchema);

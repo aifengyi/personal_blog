@@ -23,7 +23,13 @@ const savearticle = (req, res)=>{
 	res.redirect('/tech');
 };
 
+const postarticleMarkdown = (req, res)=>{
+	res.render('editor', { title: '发表文章' });
+};
+
+
 module.exports = {
 	'GET /postarticle': postarticle,
-	'POST /postarticle': savearticle
+	'POST /postarticle': savearticle,
+	'GET /postarticleMarkdown': postarticleMarkdown
 };

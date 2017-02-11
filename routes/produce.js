@@ -98,7 +98,7 @@ const userByName = (req, res)=>{
             res.json(posts);
         });
 };
-//访问/deletePosts?p=2以根据文章在Tech页面是倒数第几个来删除文章
+//访问/deletePosts?p=2以根据文章在Tech页面	是倒数第几个来删除文章
 const deletePosts = (req, res)=>{
 	res.send('hello');
 };
