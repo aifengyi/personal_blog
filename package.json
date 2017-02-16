@@ -1,15 +1,13 @@
 {
-  "name": "application-name",
+  "name": "personal_blog",
   "version": "0.0.1",
-  "private": true,
-  "description": "This is a demo of passport",
+  "description": "This is a personal blog written by expressjs",
   "main": "start.js",
   "scripts": {
     "start": "node start.js"
   },
   "keywords": [
-    "passport",
-    "auth"
+    "personal blog"
   ],
   "author": "fengyiai",
   "dependencies": {
